@@ -1,0 +1,9 @@
+{
+	"name": "Pipelines-OTG",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "10a5f818-495c-4f63-a66f-fe8e2ced65d9",
+		"tenantId": "9bfaab99-1140-4254-825c-7b2a5d5f022c"
+	}
+}
