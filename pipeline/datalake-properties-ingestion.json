@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/tecnologia@grupootg.com/properties_databricks_pipeline/Notebooks/Inbound_to_bronze"
+				},
+				"linkedServiceName": {
+					"referenceName": "Databricks_datafactory_link",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "Ingestao-camada-silver",
@@ -33,7 +40,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/tecnologia@grupootg.com/properties_databricks_pipeline/Notebooks/bronze_to_silver"
+				},
+				"linkedServiceName": {
+					"referenceName": "Databricks_datafactory_link",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
